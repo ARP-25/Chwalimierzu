@@ -8310,7 +8310,14 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
-
+ul {
+  text-align: center; /* Zentriert den Text innerhalb der Liste */
+}
+ul li {
+  display: inline-block; /* Zeigt die Listenelemente in einer Zeile an */
+  text-align: left; /* Textausrichtung innerhalb jedes Listenelements */
+  margin: 0 10px; /* Fügt horizontalen Abstand zwischen den Listenelementen hinzu */
+}
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: #64a19d!important;
