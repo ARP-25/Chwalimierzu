@@ -8305,7 +8305,23 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
-
+.beschreibung {
+  color: #D1D1D1; /* Heller Grauton */
+  text-align: center; /* Zentrierter Text */
+  margin-top: 2rem; /* Oberer Abstand */
+  margin-bottom: 5rem; /* Unterer Abstand */
+  padding: 0 2rem; /* Seitliche Polsterung für bessere Lesbarkeit auf kleinen Bildschirmen */
+  font-size: 1.2rem; /* Leicht vergrößerter Schriftgrad für bessere Lesbarkeit */
+}
+.highlight {
+  color: whitesmoke; /* Goldene Farbe für Hervorhebungen */
+  font-weight: bold; /* Fett gedruckter Text */
+}
+@media (max-width: 768px) {
+  .beschreibung {
+      font-size: 1rem; /* Kleinere Schriftgröße auf mobilen Geräten */
+  }
+}
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
@@ -8315,7 +8331,7 @@ ul {
 }
 ul li {
   display: inline-block; /* Zeigt die Listenelemente in einer Zeile an */
-  text-align: left; /* Textausrichtung innerhalb jedes Listenelements */
+  text-align: center; /* Textausrichtung innerhalb jedes Listenelements */
   margin: 0 10px; /* Fügt horizontalen Abstand zwischen den Listenelementen hinzu */
 }
 .bg-black {
