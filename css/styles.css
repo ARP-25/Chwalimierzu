@@ -11085,6 +11085,9 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
+#customicon { 
+  color: white;
+}
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
   font-size: 1rem;
