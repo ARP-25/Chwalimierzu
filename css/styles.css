@@ -8315,6 +8315,9 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: #64a19d!important;
 }
+.bg-black-2 {
+  background-color: black!important;
+}
 
 .bg-white {
   --bs-bg-opacity: 1;
