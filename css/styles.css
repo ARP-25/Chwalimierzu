@@ -11145,6 +11145,7 @@ body {
     font-size: 1.25rem;
   }
 }
+
 @media (min-width: 1500px) {
   .masthead h1, .masthead .h1 {
     font-size: 6rem!important;
@@ -11152,6 +11153,7 @@ body {
     letter-spacing: 1.8rem;
   }
 }
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
